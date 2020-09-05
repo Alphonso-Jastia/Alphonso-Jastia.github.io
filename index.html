@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <title>Search</title>
+        <style>
+            p{
+                text-align: right;
+            }
+            a{
+                color:ghostwhite;
+            }
+            a:hover{
+                color:green;
+            }
+            #search{
+                width: 400px;
+                height: 30px;
+            }
+            h1{
+                font-size: 200px;
+            }
+            body{
+                text-align: center;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body class="text-white bg-dark">
+        <p><a href = "Advanced_Search.html">Advanced Search</a></p>
+        <p><a href = "Image_Search.html">Image Search</a></p>
+    </br>
+        <div>
+            <h1> Google </h1>
+        </div>
+    </br>
+        <div>
+           <form action="https://google.com/search">
+            <input type = "text" name = "q" id = "search" placeholder = "Search">
+           </br>
+            <input type = "submit" name = "btnK" value = "Google Search" class = "button">
+            <input type = "submit" name = "btnI" value = "I'm Feeling Lucky" class = "button">
+           </form>
+        </div>
+    </body>
+</html>
