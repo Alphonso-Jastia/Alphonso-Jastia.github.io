@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <title>Search</title>
+        <style>
+            #advanced_search{
+                background-color: blue;
+                color: whitesmoke;
+            }
+            #advanced_search:hover{
+                background-color: whitesmoke;
+                color: black;
+            }
+            p{
+                text-align: right;
+            }
+            a{
+                color:ghostwhite;
+            }
+            a:hover{
+                color:green;
+            }
+            #search{
+                width: 400px;
+                height: 30px;
+            }
+            body{
+                text-align: left;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body class="text-white bg-dark">
+        <p><a href = "Search.html">Regular Search</a></p>
+    </br>
+    </br>
+    <div>
+        <h1> Find Pages with..</h1>
+    </div>
+        <div>
+           <form action="https://google.com/search">
+            <input type="text" name="q" id = "search">
+            <h6> All these words:</h6>
+        </br>
+            <input type="text" name="as_epq" id = "search">
+            <h6> This exact word or phrase:</h6>
+        </br>
+            <input type="text" name="as_oq" id = "search">
+            <h6> Any of these words:</h6>
+         </br>
+            <input type="text" name="as_eq" id = "search">
+            <h6> None of these words:</h6>
+        </br>
+            <input id = "advanced_search" type="submit" value="Google Search">
+            </form>
+        </div>
+    </body>
+</html>
